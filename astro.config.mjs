@@ -4,6 +4,6 @@ import tailwind from "@astrojs/tailwind";
 
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: 'https://abixy.com'
+  site: 'https://abixy.com',
   base: '/tailcast',
 });
